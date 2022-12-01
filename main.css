@@ -19,7 +19,17 @@
   cursor: pointer;
   color: white;
   background-color: transparent;
-  height: 35px;
-  width: 35px;
+  height: 40px;
+  width: 40px;
   font-size: 18px;
 }
+
+.player__left-group_buttons.player__button:not(:last-child) {
+  margin-right: 5px;
+}
+
+.player__button-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
