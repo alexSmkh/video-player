@@ -1,3 +1,5 @@
-# Video play
+# Video player
 
-Simple video player made using html/css/js
+A simple video player made using html/css/js.  [Demo](https://alexsmkh.github.io/video-player/)
+
+![sample](sample.gif)
