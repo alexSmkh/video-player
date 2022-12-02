@@ -1,8 +1,12 @@
+button:focus {
+  outline: none;
+}
+
 .player {
   display: flex;
   flex-direction: column;
   width: 400px;
-  height: 300px;
+  height: 298px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
@@ -19,7 +23,15 @@
   cursor: pointer;
   color: white;
   background-color: transparent;
-  padding: 3px 5px;
+  padding: 2px 5px;
+}
+
+.mute-button {
+  font-size: 12px;
+}
+
+.fullscree-button {
+  font-size: 14px;
 }
 
 .player .button-wrapper {
@@ -35,7 +47,6 @@
   font-family: 'Roboto', sans-serif;
   color: white;
   font-size: 8px;
-  padding-bottom: 1px;
 }
 
 .progress {
@@ -70,3 +81,4 @@
   opacity: 1;
   transition: opacity 300ms ease-out;
 }
+

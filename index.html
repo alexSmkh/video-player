@@ -16,21 +16,22 @@
       href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="normalize.css">
   </head>
   <body>
     <div id="player" class="player">
       <div class="js-video-container video-container"></div>
       <div class="button-wrapper">
         <button class="js-play-button player-button">
-          <i class="fa-solid fa-play fa-xs"></i>
+          <i class="fa-solid fa-play fa-2xs"></i>
         </button>
         <button class="js-pause-button player-button" hidden>
-          <i class="fa-solid fa-pause fa-xs"></i>
+          <i class="fa-solid fa-pause fa-2xs"></i>
         </button>
-        <button class="js-volume-button player-button">
+        <button class="js-volume-button player-button mute-button">
           <i class="fa-solid fa-volume-off fa-2xs"></i>
         </button>
-        <button class="js-mute-button player-button">
+        <button class="js-mute-button player-button mute-button">
           <i class="fa-solid fa-volume-high fa-2xs"></i>
         </button>
 
@@ -43,7 +44,7 @@
         </div>
 
         <div class="js-duration duration"></div>
-        <button class="js-fullscreen-button player-button">
+        <button class="js-fullscreen-button player-button fullscree-button">
           <i class="fa-solid fa-up-right-and-down-left-from-center fa-2xs"></i>
         </button>
       </div>
