@@ -6,15 +6,15 @@
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-.player__video-container {
+.player .video-container {
   flex-grow: 1;
 }
 
-.player__button-wrapper {
+.player .button-wrapper {
   background-color: black;
 }
 
-.player__button {
+.player-button {
   border: none;
   cursor: pointer;
   color: white;
@@ -24,13 +24,16 @@
   font-size: 18px;
 }
 
-.player__left-group_buttons.player__button:not(:last-child) {
+.player .player-button:not(:last-child) {
   margin-right: 5px;
 }
 
-.player__button-wrapper {
+.player .button-wrapper {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+}
+
+.blank {
+  flex-grow: 1;
 }
 
