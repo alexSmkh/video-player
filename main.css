@@ -54,6 +54,7 @@
 }
 
 .progress .circle {
+  opacity: 0;
   height: 4px;
   width: 4px;
   background-color: #f8104d;
@@ -62,4 +63,10 @@
   border: 1px solid white;
   margin-left: -2px;
   margin-top: -2px;
+  transition: opacity 300ms ease-in;
+}
+
+.time-progress:hover .circle {
+  opacity: 1;
+  transition: opacity 300ms ease-out;
 }
