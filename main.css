@@ -23,15 +23,16 @@ button:focus {
   cursor: pointer;
   color: white;
   background-color: transparent;
-  padding: 2px 5px;
+  padding: 2px 0px;
   cursor: pointer;
+  width: 18px;
 }
 
 .mute-button {
   font-size: 12px;
 }
 
-.fullscree-button {
+.fullscreen-button {
   font-size: 14px;
 }
 
@@ -48,6 +49,10 @@ button:focus {
   font-family: 'Roboto', sans-serif;
   color: white;
   font-size: 8px;
+}
+
+.current-time {
+  padding-left: 1px;
 }
 
 .progress {
