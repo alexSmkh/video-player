@@ -31,3 +31,9 @@
   flex-grow: 1;
 }
 
+.current-time, .duration {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-size: 8px;
+  padding-bottom: 1px;
+}
