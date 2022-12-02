@@ -24,6 +24,7 @@ button:focus {
   color: white;
   background-color: transparent;
   padding: 2px 5px;
+  cursor: pointer;
 }
 
 .mute-button {
@@ -52,6 +53,7 @@ button:focus {
 .progress {
   height: 3px;
   border-radius: 1px;
+  cursor: pointer;
 }
 
 .time-progress {

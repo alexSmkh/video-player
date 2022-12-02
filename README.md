@@ -4,7 +4,7 @@ A simple video player made using html/css/js. It is based on a <a href="https://
 [Demo](https://alexsmkh.github.io/video-player/)
 
 
-![sample](sample.gif)
+![demo](demo.gif)
 
 
 ### How to run
