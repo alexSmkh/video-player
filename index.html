@@ -16,37 +16,39 @@
       href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="normalize.css">
-    <link href="favicon.png" rel="icon" type="image/png"/>
+    <link rel="stylesheet" href="normalize.css" />
+    <link href="favicon.png" rel="icon" type="image/png" />
   </head>
   <body>
     <div id="player" class="player">
       <div class="js-video-container video-container"></div>
       <div class="button-wrapper">
         <button class="js-play-button player-button">
-          <i class="fa-solid fa-play fa-2xs"></i>
+          <i class="fa-solid fa-play fa-lg"></i>
         </button>
         <button class="js-pause-button player-button" hidden>
-          <i class="fa-solid fa-pause fa-2xs"></i>
+          <i class="fa-solid fa-pause fa-lg"></i>
         </button>
         <button class="js-volume-button player-button mute-button">
-          <i class="fa-solid fa-volume-off fa-2xs"></i>
+          <i class="fa-solid fa-volume-off fa-lg"></i>
         </button>
         <button class="js-mute-button player-button mute-button">
-          <i class="fa-solid fa-volume-high fa-2xs"></i>
+          <i class="fa-solid fa-volume-high fa-lg"></i>
         </button>
 
-        <div class="js-current-time current-time"></div>
+        <div class="progress-bar">
+          <div class="js-current-time current-time"></div>
 
-        <div class="js-progress time-progress progress">
-          <div class="js-progress-slider viewed-progress progress">
+          <div class="js-progress full-progress timeline">
+            <div class="js-progress-slider viewed-progress timeline"></div>
+            <span class="circle"></span>
           </div>
-          <span class="circle"></span>
+
+          <div class="js-duration duration"></div>
         </div>
 
-        <div class="js-duration duration"></div>
         <button class="js-fullscreen-button player-button fullscreen-button">
-          <i class="fa-solid fa-up-right-and-down-left-from-center fa-2xs"></i>
+          <i class="fa-solid fa-up-right-and-down-left-from-center fa-lg"></i>
         </button>
       </div>
     </div>

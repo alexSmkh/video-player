@@ -5,9 +5,9 @@ button:focus {
 .player {
   display: flex;
   flex-direction: column;
-  width: 400px;
-  height: 298px;
-  box-shadow: 3px 3px 3px grey;
+  width: 800px;
+  height: 600px;
+  box-shadow: 5px 7px 4px grey;
 }
 
 .player .video-container {
@@ -23,9 +23,9 @@ button:focus {
   cursor: pointer;
   color: white;
   background-color: transparent;
-  padding: 2px 0px;
   cursor: pointer;
-  width: 18px;
+  width: 37px;
+  height: 39px;
 }
 
 .mute-button {
@@ -48,43 +48,51 @@ button:focus {
 .current-time, .duration {
   font-family: 'Roboto', sans-serif;
   color: white;
-  font-size: 8px;
+  font-size: 16px;
 }
 
 .current-time {
   padding-left: 1px;
 }
 
-.progress {
-  height: 3px;
-  border-radius: 1px;
+.progress-bar {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;;
+}
+
+.timeline {
+  height: 15px;
+  border-radius: 2px;
   cursor: pointer;
 }
 
-.time-progress {
+.full-progress {
   display: flex;
+  align-items: center;
   flex-grow: 1;
-  margin: 0 5px;
+  margin: 0 10px;
 }
 
 .viewed-progress {
   background-color: #f8104d;
+  height: 5px;
 }
 
-.progress .circle {
+.timeline .circle {
   opacity: 0;
-  height: 4px;
-  width: 4px;
+  height: 8px;
+  width: 8px;
   background-color: #f8104d;
   border-radius: 50%;
   display: inline-block;
-  border: 1px solid white;
-  margin-left: -2px;
+  border: 3px solid white;
+  margin-left: -4px;
   margin-top: -2px;
   transition: opacity 300ms ease-in;
 }
 
-.time-progress:hover .circle {
+.full-progress:hover .circle {
   opacity: 1;
   transition: opacity 300ms ease-out;
 }
